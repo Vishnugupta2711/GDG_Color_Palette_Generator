@@ -23,7 +23,7 @@ A single-page web application that allows users to generate and view beautiful c
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/color-palette-generator.git
+https://github.com/Vishnugupta2711/GDG_Color_Palette_Generator.git
 
 # Navigate to the project directory
 cd color-palette-generator
