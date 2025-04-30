@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import ColorPicker from "./components/ColorPicker";
 import PaletteDisplay from "./components/PaletteDisplay";
 import { ArrowDown, Sparkles, Save, Download } from "lucide-react";
+import "./App.css";
+
 
 function App() {
   const [baseColors, setBaseColors] = useState(["#3498db"]);
@@ -17,7 +19,6 @@ function App() {
 
   const generatePalette = (colors) => {
     setAnimateGenerate(true);
-
     setTimeout(() => {
       let newPalette = [];
 
